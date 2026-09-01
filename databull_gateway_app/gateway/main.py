@@ -851,10 +851,30 @@ async def corpus_chat(req: CorpusQueryRequest):
         ]
     }
 
-# Mount static files if built frontend exists
+from fastapi.responses import FileResponse, HTMLResponse
+
+# Mount static assets and SPA route
 frontend_dist = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend", "dist"))
-if os.path.exists(frontend_dist):
-    app.mount("/", StaticFiles(directory=frontend_dist, html=True), name="frontend")
+assets_dir = os.path.join(frontend_dist, "assets")
+
+if os.path.exists(assets_dir):
+    app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+
+@app.get("/{full_path:path}")
+async def serve_spa(full_path: str):
+    if full_path.startswith("api/"):
+        raise HTTPException(status_code=404, detail="API endpoint not found")
+    
+    # Check if specific static file exists (e.g. favicon.svg)
+    file_path = os.path.join(frontend_dist, full_path)
+    if os.path.exists(file_path) and os.path.isfile(file_path):
+        return FileResponse(file_path)
+    
+    index_file = os.path.join(frontend_dist, "index.html")
+    if os.path.exists(index_file):
+        return FileResponse(index_file)
+    
+    return HTMLResponse("<h1>DataBull Terminal API Live</h1><p>Visit <a href='/docs'>/docs</a> for API explorer.</p>")
 
 if __name__ == "__main__":
     import uvicorn
