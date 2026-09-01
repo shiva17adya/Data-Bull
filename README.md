@@ -10,6 +10,19 @@
 
 ---
 
+## 📸 Terminal Interface & Screenshots
+
+### 1. Refined Intelligence Dashboard
+![DataBull Analysis Dashboard](docs/screenshots/01_analysis_dashboard.png)
+
+### 2. [ WHY THIS RESULT? ] Multi-Stage Decision & Reasoning Trace
+![Why This Result Decision Trace](docs/screenshots/02_why_this_result_trace.png)
+
+### 3. Evidence Intelligence & Financial Corpus Q&A
+![Evidence Intelligence Chat](docs/screenshots/03_evidence_intelligence.png)
+
+---
+
 ## 🏛️ System Architecture
 
 ```mermaid
@@ -57,7 +70,10 @@ d:/hacakthon/
 │   ├── adapters/               # Zero-modification resilience adapters for Modules 1-4
 │   ├── contracts/              # Strict schema definitions & normalized contracts
 │   └── frontend/               # Dark-first React 19 + TypeScript + Tailwind v4 Web Terminal
-├── MEMBER5_FRONTEND_CONTRACT.md# Complete data exchange specification
+├── docs/                       # Technical specifications, audits & interface documentation
+│   ├── FRONTEND_API_CONTRACT.md# Data exchange contract & normalized payload specs
+│   ├── INTEGRATION_AUDIT.md    # Multi-agent system integration audit & degradation guarantees
+│   └── screenshots/            # High-resolution application screenshots
 └── README.md                   # Project documentation & execution guide
 ```
 
@@ -125,9 +141,6 @@ Open **[http://localhost:5173](http://localhost:5173)** in your browser.
 
 ---
 
-## 👥 Contributors & Architecture Roles
-- **Market Signal Engine**: Real-time market feed normalization & momentum engines.
-- **Financial Document RAG**: Vector ingestion pipeline & semantic document search.
-- **User Profile & Portfolio Engine**: Investor risk profiling & exposure analytics.
-- **Multi-Agent Orchestrator**: Agent consensus synthesis & conflict resolution.
-- **DataBull Gateway & UI**: Normalized API Gateway, resilient adapters & Fintech Terminal UI.
+## 👥 Documentation & Architecture Specs
+- [Frontend API & Data Contract](docs/FRONTEND_API_CONTRACT.md)
+- [System Integration Audit](docs/INTEGRATION_AUDIT.md)
