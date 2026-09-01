@@ -1,0 +1,73 @@
+{
+  "RELIANCE": {
+    "query": "RELIANCE Q3 FY26 results, segment performance, risks and outlook",
+    "retrieval_status": "ok",
+    "chunks": [
+      {
+        "source": "RELIANCE_Q3FY26_earnings_call_transcript.pdf",
+        "section": "Management Commentary",
+        "text": "Consolidated EBITDA for the quarter grew 11.4% year on year to INR 46,820 crore, led by continued margin expansion in the digital services segment and a record contribution from retail. Management highlighted that the new energy business has moved from investment phase to early revenue recognition, with the first giga-factory line commissioned ahead of schedule.",
+        "score": 0.93
+      },
+      {
+        "source": "RELIANCE_Q3FY26_investor_presentation.pdf",
+        "section": "Segment Performance — Retail",
+        "text": "Retail revenue rose 18.2% year on year with like-for-like store growth of 9.1%. Gross margin improved 60 basis points on a better mix of own-brand merchandise. Store additions of 312 during the quarter take the total footprint to 19,4xx outlets.",
+        "score": 0.88
+      },
+      {
+        "source": "RELIANCE_FY26_annual_report_extract.pdf",
+        "section": "Risk Factors",
+        "text": "The refining and petrochemicals segment remains exposed to a decline in benchmark cracks and to margin pressure from volatile feedstock costs. A sustained contraction in Singapore GRM spreads would weigh on O2C profitability. The company also notes ongoing regulatory scrutiny of pricing practices in certain telecom circles.",
+        "score": 0.81
+      },
+      {
+        "source": "SEBI_filing_RELIANCE_2026_02_04.pdf",
+        "section": "Disclosure — Capital Expenditure",
+        "text": "The Board approved incremental capital expenditure of INR 24,000 crore towards capacity addition in the new energy vertical, to be funded through internal accruals and existing facilities, with no incremental gross debt anticipated in the current financial year.",
+        "score": 0.76
+      }
+    ]
+  },
+  "RELIANCE_EMPTY": {
+    "query": "RELIANCE Q3 FY26 results, segment performance, risks and outlook",
+    "retrieval_status": "no_match",
+    "chunks": []
+  },
+  "RELIANCE_BEARISH": {
+    "query": "RELIANCE regulatory and margin risks",
+    "retrieval_status": "ok",
+    "chunks": [
+      {
+        "source": "SEBI_show_cause_notice_RELIANCE_2026_01_28.pdf",
+        "section": "Proceedings",
+        "text": "A show cause notice has been issued in respect of alleged non-compliance with disclosure timelines. The matter is under investigation and a monetary penalty may follow. The company has sought an extension to respond.",
+        "score": 0.90
+      },
+      {
+        "source": "RELIANCE_Q3FY26_earnings_call_transcript.pdf",
+        "section": "O2C Outlook",
+        "text": "Management guided to continued margin pressure in the O2C segment, noting that refining throughput declined quarter on quarter and that the earlier full-year guidance has been revised downward. A weak demand environment in export markets remains a headwind.",
+        "score": 0.86
+      },
+      {
+        "source": "RELIANCE_FY26_annual_report_extract.pdf",
+        "section": "Risk Factors",
+        "text": "Debt increased during the period on account of accelerated capital expenditure, and a sustained contraction in cracks would further compress coverage ratios.",
+        "score": 0.79
+      }
+    ]
+  },
+  "RELIANCE_IRRELEVANT": {
+    "query": "RELIANCE outlook",
+    "retrieval_status": "ok",
+    "chunks": [
+      {
+        "source": "NSE_listing_circular_2026_01_02.pdf",
+        "section": "Administrative",
+        "text": "The exchange will observe revised trading holidays for the calendar year. Members are advised to note the settlement calendar published alongside this circular.",
+        "score": 0.41
+      }
+    ]
+  }
+}

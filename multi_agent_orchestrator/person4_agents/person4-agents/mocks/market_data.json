@@ -1,0 +1,121 @@
+{
+  "RELIANCE": {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "as_of": "2026-02-13T15:30:00+05:30",
+    "price": 1412.30,
+    "previous_close": 1389.55,
+    "currency": "INR",
+    "feed_status": "ok",
+    "indicators": {
+      "rsi_14": 61.4,
+      "momentum_5d_pct": 3.2,
+      "momentum_20d_pct": 7.8,
+      "volume_ratio_20d": 1.86,
+      "sma_20": 1380.40,
+      "sma_50": 1341.15,
+      "sma_200": 1288.70,
+      "macd_histogram": 4.62,
+      "atr_pct": 1.8,
+      "volatility_30d_pct": 21.6
+    },
+    "risk_flags": [],
+    "sentiment": {
+      "aggregate_score": 0.34,
+      "social_buzz_ratio": 2.4,
+      "window": "72h",
+      "news": [
+        {
+          "headline": "Reliance Jio adds record subscribers as ARPU rises for fourth straight quarter",
+          "source": "Economic Times",
+          "published_at": "2026-02-12T09:14:00+05:30",
+          "sentiment_score": 0.72
+        },
+        {
+          "headline": "Reliance Retail beats street estimates on festive quarter revenue",
+          "source": "Mint",
+          "published_at": "2026-02-11T18:40:00+05:30",
+          "sentiment_score": 0.65
+        },
+        {
+          "headline": "Brokerages raise Reliance target price citing new energy ramp-up",
+          "source": "Moneycontrol",
+          "published_at": "2026-02-11T11:05:00+05:30",
+          "sentiment_score": 0.58
+        },
+        {
+          "headline": "Refining margins soften on weak Singapore GRM spreads, analysts flag near-term drag",
+          "source": "Reuters",
+          "published_at": "2026-02-10T16:22:00+05:30",
+          "sentiment_score": -0.41
+        },
+        {
+          "headline": "FII flows into Indian large caps stay positive for the third week",
+          "source": "Business Standard",
+          "published_at": "2026-02-10T08:00:00+05:30",
+          "sentiment_score": 0.30
+        }
+      ]
+    }
+  },
+  "RELIANCE_DEGRADED": {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "as_of": "2026-02-13T15:30:00+05:30",
+    "price": 1412.30,
+    "feed_status": "partial",
+    "indicators": {
+      "rsi_14": 61.4,
+      "sma_50": 1341.15
+    },
+    "risk_flags": ["intraday_feed_gap"],
+    "sentiment": {
+      "aggregate_score": 0.12,
+      "news": [
+        {
+          "headline": "Reliance shares in focus ahead of board meeting",
+          "source": "Economic Times",
+          "published_at": "2026-02-13T08:30:00+05:30"
+        }
+      ]
+    }
+  },
+  "RELIANCE_BEARISH_NEWS": {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "as_of": "2026-02-13T15:30:00+05:30",
+    "price": 1412.30,
+    "feed_status": "ok",
+    "indicators": {
+      "rsi_14": 63.1,
+      "momentum_5d_pct": 2.9,
+      "momentum_20d_pct": 8.4,
+      "volume_ratio_20d": 1.72,
+      "sma_20": 1380.40,
+      "sma_50": 1341.15,
+      "sma_200": 1288.70,
+      "macd_histogram": 4.10,
+      "atr_pct": 2.1,
+      "volatility_30d_pct": 24.8
+    },
+    "risk_flags": [],
+    "sentiment": {
+      "aggregate_score": 0.28,
+      "social_buzz_ratio": 3.1,
+      "news": [
+        {
+          "headline": "Retail investors pile into Reliance on breakout, volumes surge",
+          "source": "Moneycontrol",
+          "published_at": "2026-02-12T10:00:00+05:30",
+          "sentiment_score": 0.61
+        },
+        {
+          "headline": "Analysts see further upside as Jio tariff hike sticks",
+          "source": "Mint",
+          "published_at": "2026-02-12T12:30:00+05:30",
+          "sentiment_score": 0.55
+        }
+      ]
+    }
+  }
+}

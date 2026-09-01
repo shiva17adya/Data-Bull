@@ -1,0 +1,43 @@
+{
+  "demo_conservative": {
+    "user_id": "demo_conservative",
+    "display_name": "Ananya R.",
+    "risk_tolerance": "conservative",
+    "investment_horizon": "long",
+    "experience_level": "beginner",
+    "max_position_pct": 8.0,
+    "concentration_score": 0.71,
+    "cash_pct": 4.0,
+    "holdings": [
+      { "symbol": "RELIANCE", "weight_pct": 22.0, "avg_cost": 1305.0 },
+      { "symbol": "HDFCBANK", "weight_pct": 19.5, "avg_cost": 1622.0 },
+      { "symbol": "TCS", "weight_pct": 17.0, "avg_cost": 3890.0 },
+      { "symbol": "ITC", "weight_pct": 12.5, "avg_cost": 441.0 },
+      { "symbol": "SBIN", "weight_pct": 25.0, "avg_cost": 812.0 }
+    ],
+    "behavioral_flags": ["panic_seller"],
+    "notes": "Salaried investor, three years in the market, sold most of a mid-cap position during the last 12% drawdown."
+  },
+  "demo_aggressive": {
+    "user_id": "demo_aggressive",
+    "display_name": "Karthik V.",
+    "risk_tolerance": "aggressive",
+    "investment_horizon": "short",
+    "experience_level": "advanced",
+    "max_position_pct": 25.0,
+    "concentration_score": 0.34,
+    "cash_pct": 18.0,
+    "holdings": [
+      { "symbol": "RELIANCE", "weight_pct": 4.0, "avg_cost": 1398.0 },
+      { "symbol": "INFY", "weight_pct": 9.0, "avg_cost": 1544.0 },
+      { "symbol": "TATAMOTORS", "weight_pct": 11.0, "avg_cost": 902.0 },
+      { "symbol": "ADANIENT", "weight_pct": 8.0, "avg_cost": 2410.0 },
+      { "symbol": "ZOMATO", "weight_pct": 7.5, "avg_cost": 268.0 },
+      { "symbol": "HDFCBANK", "weight_pct": 10.0, "avg_cost": 1590.0 },
+      { "symbol": "ICICIBANK", "weight_pct": 10.0, "avg_cost": 1188.0 },
+      { "symbol": "LT", "weight_pct": 12.5, "avg_cost": 3620.0 }
+    ],
+    "behavioral_flags": ["momentum_chaser"],
+    "notes": "Active trader, comfortable with derivative exposure and drawdowns, holds a large cash buffer between positions."
+  }
+}
